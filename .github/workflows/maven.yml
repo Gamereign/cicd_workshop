@@ -1,6 +1,0 @@
-
-name: Run OWASP ZAProxy Scan
-  uses: zaproxy/action-full-scan@v0.10.0 # Or use zaproxy/action-baseline@v0.6.1 for baseline scan
-    with:
-      target: 'https://zestful-peace-production.up.railway.app/' # Replace with your application's URL
-   
