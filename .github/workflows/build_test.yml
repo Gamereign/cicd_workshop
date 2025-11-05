@@ -30,7 +30,7 @@ jobs:
     - name: Build and test 
       run: mvn -B test
 
-  snyk_scanning:
+    snyk_scanning:
     needs: build_test
     runs-on: ubuntu-latest
     steps:
